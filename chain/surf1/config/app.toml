@@ -1,0 +1,64 @@
+app-db-backend = ''
+halt-height = 0
+halt-time = 0
+iavl-cache-size = 781250
+iavl-disable-fastnode = false
+index-events = []
+inter-block-cache = true
+min-retain-blocks = 0
+minimum-gas-prices = '0.025ibc/8E27BA2D5493AF5636760E354E46004562C46AB7EC0CC4C1CA14E9E20E2545B5,25000000000adv4tnt'
+pruning = 'default'
+pruning-interval = '0'
+pruning-keep-recent = '0'
+query-gas-limit = '0'
+
+[api]
+  address = 'tcp://0.0.0.0:1317'
+  enable = true
+  enabled-unsafe-cors = false
+  max-open-connections = 1000
+  rpc-max-body-bytes = 1000000
+  rpc-read-timeout = 10
+  rpc-write-timeout = 0
+  swagger = false
+
+[grpc]
+  address = '0.0.0.0:9090'
+  enable = true
+  max-recv-msg-size = '10485760'
+  max-send-msg-size = '2147483647'
+
+[grpc-web]
+  enable = true
+
+[mempool]
+  max-txs = 5000
+
+[oracle]
+  client_timeout = '2s'
+  enabled = 'true'
+  metrics_enabled = true
+  oracle_address = 'localhost:8080'
+  prometheus_server_address = 'localhost:8001'
+
+[state-sync]
+  snapshot-interval = 0
+  snapshot-keep-recent = 2
+
+[streaming]
+  [streaming.abci]
+    keys = []
+    plugin = ''
+    stop-node-on-err = true
+
+[telemetry]
+  datadog-hostname = ''
+  enable-hostname = false
+  enable-hostname-label = false
+  enable-service-label = false
+  enabled = true
+  global-labels = []
+  metrics-sink = ''
+  prometheus-retention-time = 60
+  service-name = ''
+  statsd-addr = ''
