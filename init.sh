@@ -7,7 +7,8 @@ install_prerequisites() {
     #brew install dasel jq
 
     # linux
-	#  apk add dasel jq
+    # apk add dasel jq
+    echo 'install_pre done'
 }
 
 # Define mnemonics for all validators.
