@@ -7,8 +7,8 @@ install_prerequisites() {
     #brew install dasel jq
 
     # linux
-	# apk add dasel jq
-	echo 'install_pre done'
+    # apk add dasel jq
+    echo 'install_pre done'
 }
 
 # Define mnemonics for all validators.
@@ -26,7 +26,7 @@ FAUCET_ACCOUNTS=(
 	"dydx1nzuttarf5k2j0nug5yzhr6p74t9avehn9hlh8m" # main faucet
 )
 
-MONIKER="surf01"
+MONIKER="surf02"
 VAL_HOME_DIR="./.$MONIKER"
 VAL_CONFIG_DIR="$VAL_HOME_DIR/config"
 
