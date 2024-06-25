@@ -71,10 +71,11 @@ FAUCET_ACCOUNTS=(
 # `jq` and `dasel` are used to manipulate json and yaml files respectively.
 install_prerequisites() {
     # Install dasel and jq using Homebrew
-    brew install dasel jq
+    #brew install dasel jq
 
     # linux
-	  #apk add dasel jq
+    #apk add dasel jq
+    echo 'install pre done'
 }
 
 # Create all validators for the chain including a full-node.
