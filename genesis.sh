@@ -1,7 +1,7 @@
 #!/bin/bash
 set -eo pipefail
 
-MONIKER="surf01"
+MONIKER="surf02"
 VAL_HOME_DIR="./.$MONIKER"
 VAL_CONFIG_DIR="$VAL_HOME_DIR/config"
 
